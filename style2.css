@@ -1,0 +1,23 @@
+/*배경색 지정*/
+body {background-color: #FAFDD6;}
+
+/*h2태그의 margin*/
+h2 {margin-left: 80px;}
+
+/*책 이미지의 margin*/
+img {margin-left: 90px;}
+
+/*pre태그에 속해있는 b태그의 글자 색상 및 굵기 설정*/
+pre b {color: blue; font-size: large;}
+
+/*구매하기 바로가기 버튼 디자인 및 hover*/
+a {background-color: #C6DCBA; color: black; 
+    text-decoration: none; padding:5px 10px;
+    margin-left: 85px;}
+a:hover {background:#A4BC92; color: white; font-weight: bold;}
+
+/*p태그의 margin*/
+p {margin-left: 90px;}
+
+/*수평선 디자인*/
+hr {border-color: #AAD9BB; border-width: 2px; border-style: solid;}

@@ -1,0 +1,60 @@
+/*배경 색 지정*/
+body {background-color: #FAFDD6;}
+
+/*제목의 글씨 크기 및 margin 지정*/
+.제목 {font-size: 2em; font-weight: bold; margin-left: 125px;}
+
+/*네비게이션 메뉴 우측 정렬 및 hover기능*/
+#link {display: inline-block; background: #AAD9BB; padding: 5px; margin-left: 125px;}
+.a {color: black; text-decoration: none; padding: 5px 10px; 
+    font-size: medium; font-weight: normal;}
+.a:hover {background:  #D5F0C1; color: #79AC78; font-weight: bold;}
+
+/*수평선 디자인*/
+hr {border-color: #AAD9BB; border-width: 2px; border-style: solid;}
+
+/*자기소개 멘트 박스*/
+.box {width: 850px; background-color: #D5F0C1; padding: 10px; text-align: center;}
+
+
+/*flex속성을 이용한 부모/자식 클래스 지정*/
+.parent {display: flex;  align-content: normal; width: 850px; 
+    background-color: #AAD9BB; padding: 0px 10px;}
+
+.child {flex: 1; margin: 20px; text-align: center;}
+
+.parent_2 {display: flex;  align-content: normal; width: 850px;
+    background-color: #D5F0C1; padding: 0px 10px;}
+
+.child_2 {flex: 1; margin: 20px; text-align: center;}
+
+/*하이퍼링크 바로가기 밑줄 제거 밑 글자 색 변경*/
+.b {color: black; text-decoration: none; font-weight: bold;}
+
+/*좋아하는 책/음악을 나타내는 표에 대한 설정*/
+#bookmusic {background-color: #D5F0C1; }
+#bookmusic td{text-align: center; border: 2px solid #AAD9BB;}
+
+/*시간표 셀 내의 과목명 색상 지정*/
+.subject1 {background-color:#C4D7B2;}
+.subject2 {background-color:#99B080;}
+.subject3 {background-color:#C7E9B0;}
+.subject4 {background-color:#79AC78;}
+.subject5 {background-color:#E9FFC2;}
+.subject6 {background-color:#AEC3AE;}
+.subject7 {background-color:#B0D9B1;}
+.subject8 {background-color:#C7DCA7;}
+
+/*시간표 클래스의 배경 및 텍스트 정렬*/
+.시간표{ text-align: center; background-color: #F9EFDB;}
+
+/*따로 id를 지정하지 않은 셀의 hover*/
+.시간표 td:hover {background-color: #D5F0C1; color: #556FB5; font-weight: bold;}
+
+/*요일 셀과 시간 셀의 배경색 지정 후 hover가 작동해도 디자인에 변화가 없도록 설정*/
+#first {width: 110px; height: 50px; background-color: #AAD9BB; font-weight: bold;}
+#first:hover{background-color:#AAD9BB; color: black; font-weight: bold;}
+#time {background-color: #EBE3D5;}
+#time:hover {background-color: #EBE3D5; color: black; font-weight: normal;}
+
+
